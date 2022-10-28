@@ -26,7 +26,7 @@ public class Loginp1 {
 	}
 	public void setpassword(String pw)
 	{
-		//dddddddddddddddddddddd
+		
 		password.sendKeys(pw);
 	}
 	public void clickloginbtn()
