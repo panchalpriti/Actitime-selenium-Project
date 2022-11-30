@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 
 public class HomeP2 {
 	
@@ -42,6 +43,7 @@ public class HomeP2 {
 		 Thread.sleep(2000);
 		 newuser.click();
 		 Thread.sleep(2000);
+		 
 	 }
 	 public void fillinfo() throws InterruptedException
 	 {
@@ -54,10 +56,12 @@ public class HomeP2 {
 	 {
 		 department.click();
 		 qualitycontrol.click();
+		 
 	 }
 	 public void cancelbtn()
 	 {
 		 cancelbtn.click();
+		 Reporter.log("Javascript popup/alert popup",true);
 	 }
 
 }

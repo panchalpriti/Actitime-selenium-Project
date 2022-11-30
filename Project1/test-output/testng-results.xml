@@ -1,59 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Browser Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Javascript popup/alert popup]]>
+    </line>
+    <line>
+      <![CDATA[Alert popup handled]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-10-28T16:34:04 IST" name="Suite1" finished-at="2022-10-28T16:35:35 IST" duration-ms="91977">
+  <suite started-at="2022-12-01T00:17:44 IST" name="Suite1" finished-at="2022-12-01T00:19:42 IST" duration-ms="118218">
     <groups>
     </groups>
-    <test started-at="2022-10-28T16:34:04 IST" name="Test1" finished-at="2022-10-28T16:35:35 IST" duration-ms="91977">
-      <class name="Actitime.HomepageD2">
-        <test-method is-config="true" signature="Openbrowser()[pri:0, instance:Actitime.HomepageD2@32ee6fee]" started-at="2022-10-28T16:34:04 IST" name="Openbrowser" finished-at="2022-10-28T16:34:06 IST" duration-ms="2934" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Openbrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Actitime.HomepageD2@32ee6fee]" started-at="2022-10-28T16:35:09 IST" name="login" finished-at="2022-10-28T16:35:21 IST" duration-ms="11459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="user()[pri:0, instance:Actitime.HomepageD2@32ee6fee]" started-at="2022-10-28T16:35:21 IST" name="user" finished-at="2022-10-28T16:35:31 IST" duration-ms="10163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Actitime.HomepageD2@32ee6fee]" started-at="2022-10-28T16:35:31 IST" name="logout" finished-at="2022-10-28T16:35:33 IST" duration-ms="2349" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Actitime.HomepageD2@32ee6fee]" started-at="2022-10-28T16:35:33 IST" name="closebrowser" finished-at="2022-10-28T16:35:35 IST" duration-ms="2157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- Actitime.HomepageD2 -->
+    <test started-at="2022-12-01T00:17:44 IST" name="Test1" finished-at="2022-12-01T00:19:42 IST" duration-ms="118218">
       <class name="Actitime.loginD1">
-        <test-method is-config="true" signature="Openbrowser()[pri:0, instance:Actitime.loginD1@69997e9d]" started-at="2022-10-28T16:34:06 IST" name="Openbrowser" finished-at="2022-10-28T16:34:08 IST" duration-ms="1098" status="PASS">
+        <test-method is-config="true" signature="Openbrowser()[pri:0, instance:Actitime.loginD1@69997e9d]" started-at="2022-12-01T00:17:46 IST" name="Openbrowser" finished-at="2022-12-01T00:17:46 IST" duration-ms="860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Openbrowser -->
-        <test-method signature="loginadmini()[pri:1, instance:Actitime.loginD1@69997e9d]" started-at="2022-10-28T16:34:08 IST" name="loginadmini" finished-at="2022-10-28T16:34:36 IST" duration-ms="28910" status="PASS">
+        <test-method signature="loginadmini()[pri:1, instance:Actitime.loginD1@69997e9d]" started-at="2022-12-01T00:17:46 IST" name="loginadmini" finished-at="2022-12-01T00:18:18 IST" duration-ms="32025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginadmini -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Actitime.loginD1@69997e9d]" started-at="2022-10-28T16:34:36 IST" name="closebrowser" finished-at="2022-10-28T16:34:39 IST" duration-ms="2225" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Actitime.loginD1@69997e9d]" started-at="2022-12-01T00:18:18 IST" name="closebrowser" finished-at="2022-12-01T00:18:21 IST" duration-ms="2107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="Openbrowser()[pri:0, instance:Actitime.loginD1@69997e9d]" started-at="2022-10-28T16:34:39 IST" name="Openbrowser" finished-at="2022-10-28T16:34:40 IST" duration-ms="956" status="PASS">
+        <test-method is-config="true" signature="Openbrowser()[pri:0, instance:Actitime.loginD1@69997e9d]" started-at="2022-12-01T00:18:21 IST" name="Openbrowser" finished-at="2022-12-01T00:18:21 IST" duration-ms="904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Openbrowser -->
-        <test-method signature="loginregular()[pri:2, instance:Actitime.loginD1@69997e9d]" started-at="2022-10-28T16:34:40 IST" name="loginregular" finished-at="2022-10-28T16:35:07 IST" duration-ms="27565" status="PASS">
+        <test-method signature="loginregular()[pri:2, instance:Actitime.loginD1@69997e9d]" started-at="2022-12-01T00:18:21 IST" name="loginregular" finished-at="2022-12-01T00:19:05 IST" duration-ms="43941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginregular -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Actitime.loginD1@69997e9d]" started-at="2022-10-28T16:35:07 IST" name="closebrowser" finished-at="2022-10-28T16:35:09 IST" duration-ms="2130" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Actitime.loginD1@69997e9d]" started-at="2022-12-01T00:19:05 IST" name="closebrowser" finished-at="2022-12-01T00:19:08 IST" duration-ms="2151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- Actitime.loginD1 -->
+      <class name="Actitime.HomepageD2">
+        <test-method is-config="true" signature="Openbrowser()[pri:0, instance:Actitime.HomepageD2@32ee6fee]" started-at="2022-12-01T00:17:44 IST" name="Openbrowser" finished-at="2022-12-01T00:17:46 IST" duration-ms="1827" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Actitime.HomepageD2@32ee6fee]" started-at="2022-12-01T00:19:08 IST" name="login" finished-at="2022-12-01T00:19:25 IST" duration-ms="17203" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="user()[pri:0, instance:Actitime.HomepageD2@32ee6fee]" started-at="2022-12-01T00:19:25 IST" name="user" finished-at="2022-12-01T00:19:37 IST" duration-ms="11918" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Javascript popup/alert popup]]>
+            </line>
+            <line>
+              <![CDATA[Alert popup handled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- user -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Actitime.HomepageD2@32ee6fee]" started-at="2022-12-01T00:19:37 IST" name="logout" finished-at="2022-12-01T00:19:40 IST" duration-ms="3077" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Actitime.HomepageD2@32ee6fee]" started-at="2022-12-01T00:19:40 IST" name="closebrowser" finished-at="2022-12-01T00:19:42 IST" duration-ms="2170" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Actitime.HomepageD2 -->
     </test> <!-- Test1 -->
   </suite> <!-- Suite1 -->
 </testng-results>

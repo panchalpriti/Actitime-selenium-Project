@@ -4,6 +4,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import net.bytebuddy.build.Plugin.Factory.UsingReflection.Priority;
@@ -26,6 +27,7 @@ public class HomepageD2 extends Base {
 	  h.cancelbtn();
 	  Alert a= driver.switchTo().alert();
 	  a.accept();
+	  Reporter.log("Alert popup handled",true);
 	  
   }
 }
